@@ -1,7 +1,25 @@
 aid: moonhub
-name: Moonhub *
-description: 'Moonhub * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonhub.png
+name: Moonhub
+description: 'Moonhub is an AI recruiting platform that deploys proprietary AI agents to source,
+  qualify, engage, and vet candidates across millions of profiles, helping companies hire faster
+  and more cost-effectively. Its agent products (Qualify AI, Engage AI, and Monitor AI) automatically
+  identify qualified candidates, run outreach to convert them into interview-ready applicants, and
+  analyze candidate intent to manage recruiter handoffs. Moonhub is backed by Khosla Ventures, GV,
+  Greycroft, Time Ventures, and AIX Ventures; the Moonhub team joined Salesforce in 2026. The company
+  ships a recruiter web application (recruiter.moonhub.ai) and publishes no public developer API, SDK,
+  or documentation surface as of this profiling.'
 url: https://raw.githubusercontent.com/api-evangelist/moonhub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Recruiting
+- Talent Acquisition
+- Hiring
+- AI Agents
+- HR Tech
+- Sourcing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moonhub-domain-security.yml
 - type: Website
   url: https://moonhub.ai
+- type: About
+  url: https://moonhub.ai/aboutus
+- type: Login
+  url: https://recruiter.moonhub.ai/login
+- type: TermsOfService
+  url: https://moonhub.ai/terms
+- type: PrivacyPolicy
+  url: https://moonhub.ai/privacypolicy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
