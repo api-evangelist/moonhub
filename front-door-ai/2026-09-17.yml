@@ -1,0 +1,30 @@
+# Front Door AI Index — moonhub — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: moonhub
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: moonhub.ai
+  final_host: www.moonhub.ai
+  ownership: own
+  owner: moonhub
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 47
+  host_score: 47
+  density: 43.32
+  words: 1085
+  tiers:
+    agentic: 10
+    core: 37
+    model: 0
+  ambiguous: 9
+  top_terms:
+    AI: 36
+    AI agent: 8
+    agent: 8
+    agentic: 2
+    intelligence: 1
+    machine learning: 1
